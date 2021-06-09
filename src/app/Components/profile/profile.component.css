@@ -1,0 +1,54 @@
+.usericon{
+    font-size: 30pt;
+}
+.divusericon{
+    border-radius:50%;
+    border:1px solid black;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    margin:5px 0 0;
+    color:inherit;
+    opacity:0.75;
+    padding: 5px;
+}
+.header{
+    text-align: center;
+}
+
+#username{
+    font-size: 15pt;
+    margin: 5px 0 25px 0;
+
+}
+mat-form-field{
+    display: block;
+    width:80%;
+    margin:auto;
+}
+#Name,#Password,#Phoneno,#Button,#off,#Address{
+    display: none;
+}
+.info{
+    padding:10px;
+    font-size: 14pt;
+    padding-bottom: 25px;
+    text-overflow: ellipsis;
+    overflow:hidden
+}
+#buttonuser,#buttonpass,#buttonphone,#off,#on,#buttonaddress{
+    cursor: pointer;
+}
+#address,#phone{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:800px){
+    .info{
+        padding:10px;
+        font-size: 14pt;
+    }
+}
